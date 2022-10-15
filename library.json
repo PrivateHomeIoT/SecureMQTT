@@ -1,6 +1,6 @@
 {
   "name": "SecureMQTT",
-  "version": "0.1",
+  "version": "0.1.1",
   "description": "Library for AES128 encrypted MQTT communication compliant to the specification of PrivateHome.",
   "repository": {
     "type": "git",
