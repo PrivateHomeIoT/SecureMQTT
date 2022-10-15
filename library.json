@@ -1,0 +1,18 @@
+{
+  "name": "SecureMQTT",
+  "version": "0.1",
+  "description": "Library for AES128 encrypted MQTT communication compliant to the specification of PrivateHome.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PrivateHomeIoT/SecureMQTT"
+  },
+  "license": "GPL-3.0-or-later",
+  "headers": "SecureMQTT.h",
+  "dependencies": {
+    "knolleary/PubSubClient": "^2.8",
+    "rweather/Crypto": "^0.4.0",
+    "suculent/AESLib": "^2.2.1",
+    "marvinroger/ESP8266TrueRandom": "^1.0"
+  },
+  "platforms": ["espressif8266"]
+}
